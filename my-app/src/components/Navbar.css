@@ -1,0 +1,41 @@
+.Diamont{
+    margin: 20px;
+    color: blue;
+    font-size: 30px;
+}
+.Navbar{
+    margin-top: -70px;
+    z-index: 1000;
+    height: 80px;
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(58,45,253,1) 100%);
+position: fixed;
+}
+.Add_card{
+    width: 70px;
+    height: 50px;
+    margin: 10px 40px 0 0;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Shop{
+    font-size: 30px;
+}
+#card_number{
+padding-bottom: 25px;
+padding-right: 20px;
+z-index: 1000;
+color: red;
+
+}
+.Dark{
+    z-index: 9999999;
+}
+@media screen and (max-width:700px) {
+    .brand-logo{
+        font-size: 10px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,30 @@
+.Cards{
+    margin-top: 70px;
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,36,1) 48%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Shop{
+    font-size: 50px;
+    color: #fff;
+    z-index: 9999;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+}
+#card_number{
+    font-size: 20px;
+    color: #fff;
+    top: 10px;
+   position: fixed;
+   right: 10px;
+   z-index: 10000;
+   text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+
+   
